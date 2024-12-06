@@ -54,20 +54,9 @@ section {
   text-align: center;
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-
-.project {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  background: #f4f4f4;
-}
-
-.project h3 {
-  margin: 0.5rem 0;
+.experience ul {
+  list-style: none;
+  padding: 0;
 }
 
 footer {
