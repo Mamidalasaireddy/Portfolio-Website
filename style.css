@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.intro h1 {
+  margin: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.skill {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+.project h3 {
+  margin: 0.5rem 0;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
